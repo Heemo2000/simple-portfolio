@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Cartoony;
+  src: url('./assets/fonts/PoetsenOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Soft;
+  src: url('./assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@theme{
+  --font-cartoony: Cartoony, "sans-serif";
+  --font-soft: Soft, "sans-serif"; 
+}
+
+
+html, body
+{
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #f3f4f6; 
+}
+
+@layer utilities
+{
+  @keyframes loading {
+    0%{
+      transform: translateX(-100%);
+    }
+
+    100%
+    {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar
+  {
+    animation: loading 0.8s ease infinite;
+  }
+}
