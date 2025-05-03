@@ -23,7 +23,7 @@ export const Projects = ()=>{
                                                         display: "block"
                                                       }}
                     >
-                      <source src="/videos/FAndF.mp4" type="video/mp4" />
+                      <source src="/simple-portfolio/public/videos/FAndF.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -63,7 +63,7 @@ export const Projects = ()=>{
                                                         display: "block"
                                                       }}  
                     >
-                      <source src="/videos/BB.mp4" type="video/mp4" />
+                      <source src="/simple-portfolio/public/videos/BB.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -103,7 +103,7 @@ export const Projects = ()=>{
                                                         display: "block"
                                                       }}  
                     >
-                      <source src="/videos/TTT.mp4" type="video/mp4" />
+                      <source src="/simple-portfolio/public/videos/TTT.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -143,7 +143,7 @@ export const Projects = ()=>{
                                                         display: "block"
                                                       }}  
                     >
-                      <source src="/videos/ER.mp4" type="video/mp4" />
+                      <source src="/simple-portfolio/public/videos/ER.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -183,7 +183,7 @@ export const Projects = ()=>{
                                                         display: "block"
                                                       }}  
                     >
-                      <source src="/videos/SS.mp4" type="video/mp4" />
+                      <source src="/simple-portfolio/public/videos/SS.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>

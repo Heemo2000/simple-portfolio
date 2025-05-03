@@ -4,10 +4,10 @@
 export const Footer = () => {
 
     const socialMediaLinks = [
-        {name:"Linkedin", link: "https://www.linkedin.com/in/himanshu-gupta-33491b1ba/", imageLink: "/images/linkedin.svg"},
-        {name:"Gmail", link: "mailto:hgupta01062000@gmail.com", imageLink: "/images/gmail.svg"},
-        {name: "X", link:"https://x.com/Himanshu4548418", imageLink:"/images/x.svg"},
-        {name: "Github", link:"https://github.com/Heemo2000", imageLink: "/images/github.svg"}
+        {name:"Linkedin", link: "https://www.linkedin.com/in/himanshu-gupta-33491b1ba/", imageLink: "simple-portfolio/public/images/linkedin.svg"},
+        {name:"Gmail", link: "mailto:hgupta01062000@gmail.com", imageLink: "simple-portfolio/public/images/gmail.svg"},
+        {name: "X", link:"https://x.com/Himanshu4548418", imageLink:"simple-portfolio/public/images/x.svg"},
+        {name: "Github", link:"https://github.com/Heemo2000", imageLink: "simple-portfolio/public/images/github.svg"}
     ]
 
 
