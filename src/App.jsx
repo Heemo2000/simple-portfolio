@@ -6,6 +6,8 @@ import { MobileMenu } from './components/MobileMenu'
 import { Home } from './components/sections/Home'
 import { Skills } from './components/sections/Skills'
 import { Projects } from './components/sections/Projects'
+import { Contact } from './components/sections/Contact'
+import { Footer } from './components/Footer'
 import './index.css'
 
 function App() {
@@ -18,9 +20,12 @@ function App() {
     <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Footer/>
       <Home/>
       <Skills/>
       <Projects/>
+      <Contact/>
+
     </div>
     </>
   )
